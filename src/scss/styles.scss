@@ -1,0 +1,36 @@
+/* Global variables */
+$text: #000;
+$brand: #8C3682;
+$highlight: #85B8CB;
+
+/* Global styles */
+body {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 8px;
+  color: $text;
+  font-family: 'Courier New', sans-serif;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+a {
+  color: $brand;
+  text-decoration: none;
+  &:hover, &:focus {
+    color: $highlight;
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  a {
+    color: initial;
+    &:hover, &:focus {
+      color: initial;
+    }
+  }
+}

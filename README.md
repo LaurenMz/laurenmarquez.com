@@ -1,2 +1,2 @@
 # laurenmarquez.com
-Personal website.
+Personal website built with Node.js.
